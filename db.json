@@ -1,144 +1,252 @@
 [
-    {
-      "id": 1,
-      "CarName":"Acura",
-      "CarImage":"https://th.bing.com/th/id/OIP.DjC0xb0PQrBsNE1JRHAfUAHaHa?w=179&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7",
-      "oil":"Fuel",
-      "year":"2020"
-    },
-    {
-      "id": 2,
-      "CarName":"Alfa Romeo",
-      "CarImage":"https://th.bing.com/th/id/OIP.9nE_KOZcgz6AdtmE9ZgNzgHaDz?w=303&h=179&c=7&r=0&o=5&dpr=1.5&pid=1.7",
-      "oil":"Fuel",
-      "year":"2020"
-    },
-    {
-      "id": 3,
-      "CarName":"Aston martin",
-      "CarImage":"https://th.bing.com/th/id/OIP.J21zEQtkBDXtV7BgWiuJhAHaEU?w=303&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7",
-      "oil":"Fuel",
-      "year":"2019"
-    },
-    {
-      "id": 4,
-      "CarName":"Audi",
-      "CarImage":"https://th.bing.com/th/id/OIP.n5x5P-aLGft_OgXmZTbkZQHaDn?w=342&h=170&c=7&r=0&o=5&dpr=1.5&pid=1.7",
-      "oil":"Gas",
-      "year":"2020"
-    },
-    {
-      "id": 5,
-      "CarName":"Caillac",
-      "CarImage":"https://th.bing.com/th/id/OIP.vgwvInWOS7z53rw0yBitNAHaEX?w=291&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7",
-      "oil":"Gas",
-      "year":"2018"
-    },
-    {
-      "id": 7,
-      "CarName":"Ferrari",
-      "CarImage":"https://th.bing.com/th/id/OIP.qz3hfP7m8R8SQEexSSSQ4gHaEI?w=297&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7",
-      "oil":"Fuel",
-      "year":"2019"
-    },
-    {
-      "id": 8,
-      "CarName":"Fiat",
-      "CarImage":"https://th.bing.com/th/id/OIP.ONX1sJFRXLW2cH69nufHqAHaHa?w=157&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7",
-      "oil":"Gas",
-      "year":"2015"
-    },
-    {
-      "id": 9,
-      "CarName":"Honda",
-      "CarImage":"https://th.bing.com/th/id/OIP.rtuM3q6QlJBIW5rJazTN-QHaEo?w=277&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7",
-      "oil":"Fuel",
-      "year":"2017"
-    },
-    {
-      "id": 10,
-      "CarName":"Hyundai",
-      "CarImage":"https://th.bing.com/th/id/OIP.7171PK1pp0dHcDG9RtQYpwHaE8?w=262&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7",
-      "oil":"gas",
-      "year":"2018"
-    },
+  {
+    "id": 1,
+    "CarName": "Acura",
+    "CarImage": "https://th.bing.com/th/id/OIP.DjC0xb0PQrBsNE1JRHAfUAHaHa?w=179&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7",
+    "oil": "Fuel",
+    "year": "2020",
+    "price": "$28,000",
+    "type": "Sedan",
+    "transmission": "Automatic",
+    "seats": 5,
+    "horsepower": 201,
+    "origin": "Japan"
+  },
+  {
+    "id": 2,
+    "CarName": "Alfa Romeo",
+    "CarImage": "https://th.bing.com/th/id/OIP.9nE_KOZcgz6AdtmE9ZgNzgHaDz?w=303&h=179&c=7&r=0&o=5&dpr=1.5&pid=1.7",
+    "oil": "Fuel",
+    "year": "2020",
+    "price": "$40,000",
+    "type": "Coupe",
+    "transmission": "Manual",
+    "seats": 4,
+    "horsepower": 280,
+    "origin": "Italy"
+  },
+  {
+    "id": 3,
+    "CarName": "Aston martin",
+    "CarImage": "https://th.bing.com/th/id/OIP.J21zEQtkBDXtV7BgWiuJhAHaEU?w=303&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7",
+    "oil": "Fuel",
+    "year": "2019",
+    "price": "$150,000",
+    "type": "Sports",
+    "transmission": "Automatic",
+    "seats": 2,
+    "horsepower": 503,
+    "origin": "UK"
+  },
+  {
+    "id": 4,
+    "CarName": "Audi",
+    "CarImage": "https://th.bing.com/th/id/OIP.n5x5P-aLGft_OgXmZTbkZQHaDn?w=342&h=170&c=7&r=0&o=5&dpr=1.5&pid=1.7",
+    "oil": "Gas",
+    "year": "2020",
+    "price": "$45,000",
+    "type": "Sedan",
+    "transmission": "Automatic",
+    "seats": 5,
+    "horsepower": 248,
+    "origin": "Germany"
+  },
+  {
+    "id": 5,
+    "CarName": "Caillac",
+    "CarImage": "https://th.bing.com/th/id/OIP.vgwvInWOS7z53rw0yBitNAHaEX?w=291&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7",
+    "oil": "Gas",
+    "year": "2018",
+    "price": "$50,000",
+    "type": "Luxury SUV",
+    "transmission": "Automatic",
+    "seats": 7,
+    "horsepower": 420,
+    "origin": "USA"
+  },
+  {
+    "id": 7,
+    "CarName": "Ferrari",
+    "CarImage": "https://th.bing.com/th/id/OIP.qz3hfP7m8R8SQEexSSSQ4gHaEI?w=297&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7",
+    "oil": "Fuel",
+    "year": "2019",
+    "price": "$250,000",
+    "type": "Supercar",
+    "transmission": "Automatic",
+    "seats": 2,
+    "horsepower": 710,
+    "origin": "Italy"
+  },
+  {
+    "id": 8,
+    "CarName": "Fiat",
+    "CarImage": "https://th.bing.com/th/id/OIP.ONX1sJFRXLW2cH69nufHqAHaHa?w=157&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7",
+    "oil": "Gas",
+    "year": "2015",
+    "price": "$17,000",
+    "type": "Hatchback",
+    "transmission": "Manual",
+    "seats": 4,
+    "horsepower": 101,
+    "origin": "Italy"
+  },
+  {
+    "id": 9,
+    "CarName": "Honda",
+    "CarImage": "https://th.bing.com/th/id/OIP.rtuM3q6QlJBIW5rJazTN-QHaEo?w=277&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7",
+    "oil": "Fuel",
+    "year": "2017",
+    "price": "$21,000",
+    "type": "Sedan",
+    "transmission": "Automatic",
+    "seats": 5,
+    "horsepower": 158,
+    "origin": "Japan"
+  },
+  {
+    "id": 10,
+    "CarName": "Hyundai",
+    "CarImage": "https://th.bing.com/th/id/OIP.7171PK1pp0dHcDG9RtQYpwHaE8?w=262&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7",
+    "oil": "Gas",
+    "year": "2018",
+    "price": "$19,000",
+    "type": "Sedan",
+    "transmission": "Automatic",
+    "seats": 5,
+    "horsepower": 147,
+    "origin": "South Korea"
+  },
+  
     {
       "id": 11,
-      "CarName":"Jaguar",
-      "CarImage":"https://th.bing.com/th/id/OIP.2K3TSi7jXHKLeOtEwWM_uQHaHa?w=164&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7",
-      "oil":"Fuel",
-      "year":"2016"
+      "CarName": "Jaguar",
+      "CarImage": "https://th.bing.com/th/id/OIP.bv_KZzZNhx1hA1jXzMiHFgHaE7?w=277&h=184&c=7&r=0&o=5&dpr=1.5&pid=1.7",
+      "oil": "Fuel",
+      "year": "2019",
+      "price": "$65,000",
+      "type": "Luxury Sedan",
+      "transmission": "Automatic",
+      "seats": 5,
+      "horsepower": 296,
+      "origin": "UK"
     },
     {
       "id": 12,
-      "CarName":"Kia",
-      "CarImage":"https://th.bing.com/th/id/OIP.cYSxbPF9lqimCwwSWncregHaEK?w=308&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7",
-      "oil":"Fuel",
-      "year":"2015"
+      "CarName": "Jeep",
+      "CarImage": "https://th.bing.com/th/id/OIP.qcQ_nMJsh0ziUMvWEzFg3AHaE8?w=263&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7",
+      "oil": "Gas",
+      "year": "2020",
+      "price": "$34,000",
+      "type": "SUV",
+      "transmission": "Automatic",
+      "seats": 5,
+      "horsepower": 285,
+      "origin": "USA"
     },
     {
       "id": 13,
-      "CarName":"Lamborghini",
-      "CarImage":"https://th.bing.com/th/id/OIP.l6teWu9lfNEz0b-ONxy2GAHaEK?w=308&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7",
-      "oil":"Gas",
-      "year":"2018"
+      "CarName": "Kia",
+      "CarImage": "https://th.bing.com/th/id/OIP.3b07lm_3BNBLaHAAFV5EyQHaDt?w=326&h=170&c=7&r=0&o=5&dpr=1.5&pid=1.7",
+      "oil": "Gas",
+      "year": "2021",
+      "price": "$20,000",
+      "type": "Compact",
+      "transmission": "Automatic",
+      "seats": 5,
+      "horsepower": 147,
+      "origin": "South Korea"
     },
     {
       "id": 14,
-      "CarName":"Land Rover",
-      "CarImage":"https://th.bing.com/th/id/OIP.UslTHP5-f0dNDViP9-LjRwHaDK?w=319&h=149&c=7&r=0&o=5&dpr=1.5&pid=1.7",
-      "oil":"Gas",
-      "year":"2016"
+      "CarName": "Lamborghini",
+      "CarImage": "https://th.bing.com/th/id/OIP.Y3Y_5JSQawp_sL7--BRbnAHaEK?w=321&h=181&c=7&r=0&o=5&dpr=1.5&pid=1.7",
+      "oil": "Fuel",
+      "year": "2022",
+      "price": "$300,000",
+      "type": "Supercar",
+      "transmission": "Automatic",
+      "seats": 2,
+      "horsepower": 770,
+      "origin": "Italy"
     },
     {
       "id": 15,
-      "CarName":"Maserati",
-      "CarImage":"https://th.bing.com/th/id/OIP.yHAhcq8OwcY62Kpoj0tAbgHaEP?w=299&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7",
-      "oil":"Fuel",
-      "year":"2020"
+      "CarName": "Land Rover",
+      "CarImage": "https://th.bing.com/th/id/OIP.aFzIF2nU0NaWdcT9wAaz4AHaE8?w=272&h=182&c=7&r=0&o=5&dpr=1.5&pid=1.7",
+      "oil": "Gas",
+      "year": "2019",
+      "price": "$70,000",
+      "type": "Luxury SUV",
+      "transmission": "Automatic",
+      "seats": 5,
+      "horsepower": 355,
+      "origin": "UK"
     },
     {
       "id": 16,
-      "CarName":"Mazda",
-      "CarImage":"https://th.bing.com/th/id/OIP.Edb-NrWzAt6EvWZZhTnkBAHaES?w=278&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7",
-      "oil":"Fuel",
-      "year":"2015"
+      "CarName": "Lexus",
+      "CarImage": "https://th.bing.com/th/id/OIP.SAiRww-Dkt5rT-Yi0-V1xQHaEK?w=320&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7",
+      "oil": "Hybrid",
+      "year": "2020",
+      "price": "$42,000",
+      "type": "Sedan",
+      "transmission": "Automatic",
+      "seats": 5,
+      "horsepower": 215,
+      "origin": "Japan"
     },
     {
       "id": 17,
-      "CarName":"Mclaren",
-      "CarImage":"https://th.bing.com/th/id/OIP.E8ajVD6hXxdhLSGWY5mFPQHaHa?w=174&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7",
-      "oil":"Fuel",
-      "year":"2020"
+      "CarName": "Lincoln",
+      "CarImage": "https://th.bing.com/th/id/OIP.xfScypcLrfX6OaBPXkl5NwHaEK?w=276&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7",
+      "oil": "Fuel",
+      "year": "2018",
+      "price": "$39,000",
+      "type": "Luxury SUV",
+      "transmission": "Automatic",
+      "seats": 5,
+      "horsepower": 250,
+      "origin": "USA"
     },
     {
       "id": 18,
-      "CarName":"Nissan",
-      "CarImage":"https://th.bing.com/th/id/OIP.9u9L7-1iI9rNfnIGXUAk2wHaEK?w=333&h=187&c=7&r=0&o=5&dpr=1.5&pid=1.7",
-      "oil":"Fuel",
-      "year":"2017"
+      "CarName": "Mazda",
+      "CarImage": "https://th.bing.com/th/id/OIP.QH_yjCDbXPo_KXgWeL3ebAHaEK?w=288&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7",
+      "oil": "Gas",
+      "year": "2021",
+      "price": "$24,000",
+      "type": "Crossover",
+      "transmission": "Automatic",
+      "seats": 5,
+      "horsepower": 187,
+      "origin": "Japan"
     },
     {
       "id": 19,
-      "CarName":"Ram",
-      "CarImage":"https://th.bing.com/th/id/OIP.SjNLdj4IB7abiLKT11KeVAHaHa?w=161&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7",
-      "oil":"Gas",
-      "year":"2018"
+      "CarName": "Mercedes Benz",
+      "CarImage": "https://th.bing.com/th/id/OIP.HvMR6S8U0Aa4VhNB8q-QvwHaE7?w=285&h=189&c=7&r=0&o=5&dpr=1.5&pid=1.7",
+      "oil": "Fuel",
+      "year": "2022",
+      "price": "$55,000",
+      "type": "Luxury Sedan",
+      "transmission": "Automatic",
+      "seats": 5,
+      "horsepower": 255,
+      "origin": "Germany"
     },
     {
       "id": 20,
-      "CarName":"Subaro",
-      "CarImage":"https://th.bing.com/th/id/OIP.duU3AHKCVsTCkWLCIhWsZgHaE6?rs=1&pid=ImgDetMain",
-      "oil":"Gas",
-      "year":"2019"
-    },
-    {
-      "id": 21,
-      "CarName":"Tesla",
-      "CarImage":"https://th.bing.com/th/id/OIP.EWANmc39ydUe-OqS7Z__mAHaDu?w=322&h=175&c=7&r=0&o=5&dpr=1.5&pid=1.7",
-      "oil":"Electricity",
-      "year":"2020"
-    }
+      "CarName": "Mitsubishi",
+      "CarImage": "https://th.bing.com/th/id/OIP.gybySYta6B-ZepR4g3CCJQHaEo?w=280&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7",
+      "oil": "Gas",
+      "year": "2017",
+      "price": "$18,000",
+      "type": "SUV",
+      "transmission": "Automatic",
+      "seats": 5,
+      "horsepower": 148,
+      "origin": "Japan"
+    } 
+]
 
-  ]
   
